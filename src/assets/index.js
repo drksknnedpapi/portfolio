@@ -30,6 +30,7 @@ import codeimpulse from "./codeimpulse.png";
 
 import philipa from "./phillipa.jpeg"
 import adee from "./adee.jpeg"
+import kobby from "./kobby.jpg"
 
 export {
   logo,
@@ -59,5 +60,6 @@ export {
   vercel,
   shadcn,
   philipa,
-  adee
+  adee,
+  kobby
 };
