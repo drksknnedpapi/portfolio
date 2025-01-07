@@ -20,7 +20,9 @@ import {
   github,
   artgalleria,
   codeimpulse,
-  oasis,
+  phillys,
+  philipa,
+  adee
 } from "../assets";
 
 export const navLinks = [
@@ -137,18 +139,18 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Kobby proved me wrong.",
-    name: "Phillipa",
-    designation: "CFO",
+    name: "Philipa",
+    designation: "Head Hunter, Entrepreneur",
     company: "Philly's",
-    image: "../assets/phillipa.jpeg",
+    image: philipa,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Kobby does.",
     name: "Kelvin Winston",
-    designation: "CFO",
+    designation: "Head Hunter, Entrepreneur",
     company: "Philly's",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: adee,
   },
   {
     testimonial:
@@ -162,47 +164,47 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Oasis Skincare",
+    name: "Philly's",
     description:
-      "Online Shop that allows skincare enthusiasts to discover affordable skincare products, and make pocket-friendly purchases to boost the quality of their skin.",
+      "Your trusted skincare distributor, bringing quality and affordable products right to your door step. If you wanna choose, choose Philly's.",
     tags: [
 
       {
-        name: "HTML5",
-        color: "green-text-gradient",
+        name: "React Js",
+        color: "blue-text-gradient",
       },
       {
         name: "CSS3",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: oasis,
-    source_code_link: "https://github.com/",
+    image: phillys,
+    source_code_link: "https://github.com/drksknnedpapi/phillys",
   },
   {
     name: "The Art Galleria",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Art Galleria is your one stop for re-living the reneissance era. Featuring famous paintings from various artists, This is your one stop Meseum.",
     tags: [
       {
-        name: "react",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node Js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
     image: artgalleria,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/drksknnedpapi/G02COD_WD_04",
   },
   {
     name: "CodeImpulse.",
@@ -210,20 +212,20 @@ const projects = [
       "A Tech Start Up with focus on building responsive, unique and beautiful frontend interfaces for individuals and companies alike.",
     tags: [
       {
-        name: "nextjs",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Magic Ui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
     image: codeimpulse,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/drksknnedpapi/codeimpulse",
   },
 ];
 

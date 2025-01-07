@@ -24,9 +24,12 @@ import shadcn from "./tech/shadcn.svg"
 import upwork from "./company/upwork.svg"
 import go2cod from "./company/go2cod.jpeg";
 
-import oasis from "./oasis.png";
+import phillys from "./phillys.png"
 import artgalleria from "./artgalleria.png";
 import codeimpulse from "./codeimpulse.png";
+
+import philipa from "./phillipa.jpeg"
+import adee from "./adee.jpeg"
 
 export {
   logo,
@@ -50,9 +53,11 @@ export {
   threejs,
   go2cod,
   upwork,
-  oasis,
+  phillys,
   artgalleria,
   codeimpulse,
   vercel,
-  shadcn
+  shadcn,
+  philipa,
+  adee
 };
