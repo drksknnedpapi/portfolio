@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+
+import DownloadCV from "./DownloadCV";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -60,6 +62,7 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+            <li><DownloadCV /></li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -90,6 +93,7 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li><DownloadCV /></li>
             </ul>
           </div>
         </div>
