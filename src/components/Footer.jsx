@@ -69,7 +69,7 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white">Connect</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/drksknnedpapi"
+                  href="https://github.com/kobbythedev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-yellow-400 transition-colors"
