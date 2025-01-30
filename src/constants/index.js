@@ -22,7 +22,8 @@ import {
   codeimpulse,
   phillys,
   philipa,
-  adee
+  adee,
+  porsche,
 } from "../assets";
 
 export const navLinks = [
@@ -184,6 +185,7 @@ const projects = [
     ],
     image: phillys,
     source_code_link: "https://github.com/drksknnedpapi/phillys",
+    page_url: "https://phillys-nine.vercel.app"
   },
   {
     name: "The Art Galleria",
@@ -205,6 +207,7 @@ const projects = [
     ],
     image: artgalleria,
     source_code_link: "https://github.com/drksknnedpapi/G02COD_WD_04",
+    page_url : "https://the-art-galleria.vercel.app"
   },
   {
     name: "CodeImpulse.",
@@ -226,6 +229,29 @@ const projects = [
     ],
     image: codeimpulse,
     source_code_link: "https://github.com/drksknnedpapi/codeimpulse",
+    page_url : "/"
+  },
+  {
+    name: "Porsche ",
+    description:
+      "A 3D version of the original Porsche website forund @  porsche.com/.",
+    tags: [
+      {
+        name: "React Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: porsche,
+    source_code_link: "https://github.com/drksknnedpapi/codeimpulse",
+    page_url : "/"
   },
 ];
 

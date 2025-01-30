@@ -27,6 +27,7 @@ import go2cod from "./company/go2cod.jpeg";
 import phillys from "./phillys.png"
 import artgalleria from "./artgalleria.png";
 import codeimpulse from "./codeimpulse.png";
+import porsche from "./porsche_website.png";
 
 import philipa from "./phillipa.jpeg"
 import adee from "./adee.jpeg"
@@ -61,5 +62,6 @@ export {
   shadcn,
   philipa,
   adee,
-  kobby
+  kobby,
+  porsche
 };
